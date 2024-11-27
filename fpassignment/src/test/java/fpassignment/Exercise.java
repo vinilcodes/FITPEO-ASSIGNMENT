@@ -54,6 +54,6 @@ public class Exercise {
 		action.click(driver.findElement(By.xpath("//input[@id=':R57alklff9da:']"))).keyDown(Keys.CONTROL).sendKeys("a")
 				.keyUp(Keys.CONTROL).sendKeys(Keys.BACK_SPACE).sendKeys("820").build().perform();
 		jse.executeScript("window.scrollBy(0,700)");
-
+		driver.quit();
 	}
 }
